@@ -1,16 +1,7 @@
-📈 Three end-to-end analytics projects in Python, each built around a real business decision and closed with a quantified answer.
+Three analytical projects in Python covering applied economics, statistics, machine learning and time series, each built around a business decision and closed with a measurable result. Built with: pandas, NumPy, Matplotlib, Seaborn, statsmodels, scikit-learn, XGBoost, PyTorch, lifelines, and SciPy.
 
-📈 Economic Intelligence for Business Strategy
-Log-log demand models, cost and production functions, market concentration and tax scenarios on a multi-industry, multi-country panel. Technology and Energy can raise prices; Food, Pharma and Retail lose revenue if they do. Technology’s HHI of 3,493 and Lerner index of 0.64 point to strong pricing power, while Food and Energy price below marginal cost.
+📈 **Economic Intelligence for Business Strategy:** Econometric analysis of a multi-industry, multi-country panel covering demand, pricing, production, market power, taxes, macro, labor and trade. Technology has pricing power (a 10% price increase lifts revenue 1.3%), while Food is the most exposed sector, with profit falling 4.2% under a minimum wage increase and 4.4% in a trade war.
 
-📈 Multi-Sector Time Series: Demand and Capacity Planning
-SARIMAX, ARIMA, GARCH, Extreme Value Theory and Monte Carlo across Retail, Energy and Healthcare. The healthcare model beats a seasonal benchmark (MASE 0.70 vs 1.10), and a 10% rise in arrivals lifts days above bed capacity from 0.2% to 6.2%. The Retail model is documented as too weak for weekly forecasting (MAPE 57.7%).
+📈 **Machine Learning & Statistical Inference for Top Seven Industries:** Seven business cases (fintech, e-commerce, healthcare, supply chain, cybersecurity, energy, HR), each paired with a fitting Machine Learning and/or inference method. Free shipping adds USD 7.56 per user (difference-in-differences), remote telemetry cuts 30-day readmission from 90.9% to 81.8%, and LSTM and Transformer models forecast grid load at about 3.5% MAPE.
 
-📈 Applied Statistics in Supply Chain
-22 techniques, from hypothesis testing to Bayesian inference and Difference-in-Differences, applied to shipment data. Damage runs at 11.7% against a 10% target, concentrated in international lanes (29.6%). Average-based reorder points carry a 47.5% stockout risk, and 50.1% of shipments miss the 2-day processing SLA even though the process is stable.
-
-📈 What it shows
-Economics and statistics applied to decisions: where to price, how much capacity to plan, and which operational problems are real versus noise.
-
-Tools: Python, pandas, scikit-learn, statsmodels, SciPy, PySpark.
-Code and full documentation on GitHub.
+📈 **Multi-Sector Time Series Demand and Capacity Planning:** Forecasting and risk toolkit across retail, energy and healthcare. Energy demand is forecast with ARIMA (18.3% MAPE) and its peak risk is quantified with extreme value theory and Monte Carlo simulation, while a bed-capacity simulation shows ER overload days rising from 0.2% to 34.5% if arrivals grow 20%.
